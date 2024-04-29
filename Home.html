@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home Page</title>
+	<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css">	
+	<link href="Blank1200px.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<h1><a href="Home.html">ji</a></h1>
+
+			<nav>
+				<ul>
+				<li><a href="About.html">About</a></li>
+				<li><a href="Projects.html">Projects</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+		</header>
+
+		<main class="main1">
+			<img src="DP.png" alt="Portrait">
+			<p class="t1">Hi! I’m Jubair,<br><br>a multidisciplinary <span class="u1">designer</span> & <span class="u1">video editor</span> creating brand identities, digital experiences, and visual stories.</p>
+		</main>
+
+		<div class="scrolling-text-container">
+			<div class="scrolling-text">
+			  <p>Hey there! 👋 Thanks for stopping by my website! Just a heads-up, I'm still working on it as part of my CTK 404 Web Design & Development class, so pardon the dust!</p>
+			</div>
+		</div>
+
+		<div class="portfolio" id="myCarousel">
+			<div class="f-carousel__slide"><span class="i1"><a href="Portfolio1.html"><img src="C1.png" alt="Project 1"></a></span><div class="project-name">Character Design for Comics, Games,<br>and Animation</div></div>
+			<div class="f-carousel__slide"><span class="i1"><a href="Portfolio2.html"><img src="C2.png" alt="Project 2"></a></span><div class="project-name">Pesearch Project: EcoQuest</div></div>
+			<div class="f-carousel__slide"><span class="i1"><a href="Portfolio3.html"><img src="C3.png" alt="Project 3"></a></span><div class="project-name">Brand Identity Design for<br>Cafe Rasta</div></div>
+			<div class="f-carousel__slide"><span class="i1"><a href="Portfolio4.html"><img src="C4.png" alt="Project 4"></a></span><div class="project-name">Brand Guidelines for XorBit Solutions</div></div>
+			<div class="f-carousel__slide"><span class="i1"><a href="Portfolio5.html"><img src="C5.png" alt="Project 5"></a></span><div class="project-name">Sundarban - A Journey for Peace<br>Travel Video</div></div>
+			<div class="f-carousel__slide"><span class="i1"><a href="Portfolio6.html"><img src="C6.png" alt="Project 6"></a></span><div class="project-name">Logo Design Compilation</div></div>
+		  </div>
+
+		<footer>
+			<div class="footer1">
+				<div><a href="mailto:jubairislam29@gmail.com" target="_blank">email ________ jubairislam29@gmail.com</a></div>
+				<div><a href="tel:+1(309)2052717" target="_blank">contact ______ (309) 205 2717</a></div>
+			</div>
+
+			<div class="footer2">
+				<a href="https://www.linkedin.com/in/jubairislam/" target="_blank" class="bi bi-linkedin"></a>
+				<a href="https://www.instagram.com/jubairzubo/" target="_blank" class="bi bi-instagram"></a>
+				<a href="https://www.behance.net/jubairzubo" target="_blank" class="bi bi-behance"></a>
+			</div>
+		</footer>
+	</div>
+
+	<script>
+		const container = document.getElementById("myCarousel");
+		const options = { infinite: true };
+		new Carousel(container, options);
+	</script>
+
+</body>
+</html>
