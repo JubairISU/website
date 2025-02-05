@@ -231,12 +231,12 @@ main img {
 
 .scrolling-text {
   white-space: nowrap;
-  animation: scroll-left 30s linear infinite;
+  animation: scroll-left 20s linear infinite;
 }
 
 @keyframes scroll-left {
   0% {transform: translateX(100%);}
-  100% {transform: translateX(-155%);}
+  100% {transform: translateX(-175%);}
 }
 
 #myCarousel {
